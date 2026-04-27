@@ -6,9 +6,25 @@
     <title>Lesson 02 — Level 08</title>
   </head>
   <body>
-    <h1>Level 08 — Grouping Controls</h1>
+    <h1>Level 08 — Pay Rate Options</h1>
     <form>
-      <!-- TODO: Group related controls using <fieldset> and describe the group with <legend> -->
+        <fieldset>
+            <legend>Payment Options</legend>
+            <label for="highEnd">High End</label>
+            <input id="highEnd" type="radio" name="pRate"/>
+
+            <label for="lowEnd">Low End</label>
+            <input id="lowEnd" type="radio" name="pRate"/><br>
+        </fieldset>
+        <fieldset>
+            <legend>Benefit Options</legend>
+            <label for="includeBenefits">Include Benefits</label>
+            <input id="includeBenefits" type="checkbox"/>
+
+            <label for="excludeBenefits">Do not include benefits</label>
+            <input id="excludeBenefits" type="checkbox"/>
+        </fieldset>
+            <button type="submit">Submit</button>
     </form>
   </body>
 </html>
