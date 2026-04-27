@@ -8,8 +8,33 @@
   <body>
     <h1>Level 09 — Basic Validation</h1>
     <form>
-      <!-- TODO: Add required attributes and minlength/maxlength where appropriate -->
-      <!-- TODO: If using a range input, include min and max -->
+       <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label="email">Enter your email: <br /></label>
+        <input type="email" required><br>
+
+        <label="phone">Enter your phone number:<br /></label>
+        <input type="tel" minlength="10" maxlength="15" required><br>
+
+        <label="password">Enter your password:<br /></label>
+        <input type="password" required><br>
+        <button type="submit">Login</button>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Additional Information</legend>
+        <label>Age:<br /></label>
+        <input type="number" min="10" max="100" step="2" required><br>
+
+        <label="range">Height:</label>(inches)
+        <input name="volume" type="range" min="60" max="84"><br>
+
+        <label="file">Resume<br /></label>
+        <input type="file"><br>
+        <button type="submit" required>Submit</button>
+      </fieldset>
     </form>
   </body>
 </html>
