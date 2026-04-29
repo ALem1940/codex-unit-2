@@ -3,3 +3,12 @@
   background: #eef;
 }
 /* TODO: change padding/border/margin values to see layout effects */
+.demo {
+  text-align:center;
+  padding: 30px;
+  border: solid;
+  border-width: 10px;
+  margin: 30px;
+}
+/*The content moves and has more space around it when the 
+padding, around it it increased.*/
