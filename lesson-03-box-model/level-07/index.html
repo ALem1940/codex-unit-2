@@ -10,10 +10,11 @@
     <main>
       <h1>Box-sizing comparison</h1>
       <div class="box" id="box-a">box A</div>
-      <div class="box" id="box-b" style="box-sizing: border-box">
+      <div class="box" id="box-b" style="*, *::before, *::after { box-sizing: border-box }">
         box B (border-box)
       </div>
       <!-- TODO: Try adding global `*, *::before, *::after { box-sizing: border-box }` -->
+       <!--Adding the global style to box-sizing is like putting an auto alignment on it, It fixes everything before or after the element.-->
     </main>
   </body>
 </html>
