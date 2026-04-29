@@ -1,1 +1,18 @@
 /* TODO: Inspect and override user-agent defaults like margins on headings and paragraphs */
+h1 {
+    margin-top: 100px;
+    margin-left:750px;
+    margin-right:750px;
+}
+p {
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:650px;
+    margin-right:650px;
+    color:chocolate;
+    padding: 20px;
+    border:solid 5px black;
+}
+/*h1 and the paragraph tag  was originally set with devtools margin. I went into the 
+        vscode css to change or override the setting from devtools. I wanted a more 
+        centered look for the material. See above changes*/
