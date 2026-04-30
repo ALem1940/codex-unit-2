@@ -3,11 +3,13 @@
 // Your task: give the function a name, then attach the named function to the object.
 
 // Buggy starter (anonymous function assigned):
-const user = { name: "Ava" };
-user.say = ???;
+const user = { 
+  name: "Ava" 
+};
 
-export default user;
-
-function () {
+function say() {
   return "hello " + user.name;
 };
+
+user.say = say;
+export default user;
