@@ -1,5 +1,16 @@
 // TODO: Default-export an object with nested properties.
 // Example: export default { theme: { color: 'blue' } }
-export default {
-  /* TODO: nested structure */
+
+const house = {
+  color: "white",
+  rooms: {
+    bedroom: true,
+    bathroom: true,
+    sunroom: false,
+    patio: true,
+    livingRoom: true
+  }
 };
+
+console.log(house.rooms.sunroom);
+export default house;
