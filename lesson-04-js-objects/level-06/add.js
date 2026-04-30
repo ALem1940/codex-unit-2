@@ -3,6 +3,14 @@
 // const obj = {};
 // obj.age = 30;
 // export default obj;
-const obj = {};
-// TODO: add properties using dot notation
-export default obj;
+const person = {
+    age: 30
+};
+const student {
+    level: 2, 
+    firstName: "John",
+    lastName: "Smith"
+};
+
+const value = student.school = "Codex";
+export default student;
