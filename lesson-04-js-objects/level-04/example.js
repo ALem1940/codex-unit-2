@@ -2,4 +2,7 @@
 // Example: export default { a: 1, b: "x" };
 export default {
   /* TODO: add keys and values */
+  name: "Fellicia",
+  lastName: "Bye",
+  age: 32
 };
