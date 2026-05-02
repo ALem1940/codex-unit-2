@@ -7,3 +7,15 @@
 // Add your lines below:
 
 let userName;
+let camelCase;
+let driveCar;
+let openDoor;
+let seatRecline;
+let placeKey;
+let pushStart;
+let buckleUp;
+let radioOn;
+let adjustMirror;
+let justDrive;
+
+export default justDrive;
