@@ -1,26 +1,24 @@
 // Level 06 — Debug array declarations
 // TODO: Fix provided broken array snippets so each is a valid one-line array with >=3 items.
 
-const arr1 = "a", "b", "c";
+let arr1 = ["a", "b", "c", "d"];
 
-const arr2 = ["a" "b", "c"];
+let arr2 = ["a", "b", "c"];
 
-const arr3 = [[1,2,3];
+let arr3 = [1, 2, 3];
 
-const arr4 = [apple, banana, cherry];
+let arr4 = ["apple", "banana", "cherry"];
 
-const = [1,2,3];
+let arr5 = [1, 2, 3];
 
-const arr6 = [1,2,
-3]
+let arr6 = [1, 2, 3];
 
-const arr7 = ['a", 'b', 'c'];
+let arr7 = ["a", "b", "c"];
 
-const arr8 = [1,2,3,];
+let arr8 = [1, 2, 3];
 
-const arr9 = [one, two, three];
+let arr9 = ["one", "two", "three"];
 
-const arr10 [1,2,3];
+let arr10 = [1, 2, 3];
 
-
-export default fruts;
+export default [1, 2, 3];
