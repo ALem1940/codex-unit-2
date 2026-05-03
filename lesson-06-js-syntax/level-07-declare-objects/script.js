@@ -12,12 +12,14 @@ let userProfile = {
 let userName = {
     name:"Josh", 
     age: 47, 
-    hasChosen: true};
+    hasChosen: true
+};
 
 let studentEmail = {
     name: "Amber", 
     age: 10, 
-    isUsing: false};
+    isUsing: false
+};
 
 let carParts = {
     engine: "transmission",
