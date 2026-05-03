@@ -4,7 +4,6 @@
 // Example:
 // let isLoggedIn = false;
 
-let isLoggedIn = false;
 
 let hasPicked = true;
 let shouldTurn = true;
