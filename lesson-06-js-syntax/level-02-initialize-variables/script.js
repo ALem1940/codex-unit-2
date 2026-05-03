@@ -7,4 +7,16 @@
 
 // Add your lines below:
 
-let totalCount = 0;
+let camelCase = "Just do it already!";
+let buckleUp = "Everybody needs to.";
+let playRadio = "Get to dancing";
+let openDoor = "Ladies first";
+let headsUp = "Drive safe";
+
+let totalPassengers = 8;
+let roadKill = 7;
+let longDay = 24;
+let nightCrawler = 5;
+let pushStart = 1;
+
+export default camelCase;
