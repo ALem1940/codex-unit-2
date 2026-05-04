@@ -32,3 +32,14 @@ const order = {
 };
 
 const id = order.id;
+const placedAt = order.placedAt;
+const isGift = order.isGift;
+const shippingMethod = order.shippingMethod;
+const status = order.status;
+const name = order.customer.name;
+const contact = order.customer.contact;
+const address = order.customer.address;
+const totals = order.customer.totals;
+const items = order.customer.items;
+
+export default "order.customer.items";
