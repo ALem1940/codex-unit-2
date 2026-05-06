@@ -1,8 +1,18 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {},
+  "launch": {
+    "configurations": [
+      {
+        "type": "msedge",
+        "name": "http://127.0.0.1:3000/lesson-07-browser-objects/level-01-document-object/index.html",
+        "request": "launch",
+        "url": "http://127.0.0.1:3000/lesson-07-browser-objects/level-01-document-object/index.html",
+      },
+    ],
+  },
 }
