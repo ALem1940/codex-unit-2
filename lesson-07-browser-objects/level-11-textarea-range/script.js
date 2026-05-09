@@ -8,6 +8,6 @@ function handleSubmit(event) {
   // TODO: const volume = Number(form.elements.volume.value);
   console.log("textarea & range scaffold");
 }
-
+;
 // const form = document.getElementById('sample-form');
 // if (form) form.onsubmit = handleSubmit;
