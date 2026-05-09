@@ -8,6 +8,6 @@ function handleSubmit(event) {
   // TODO: const subscribe = form.elements.subscribe.checked;
   console.log("radio & checkbox scaffold");
 }
-
+;
 // const form = document.getElementById('sample-form');
 // if (form) form.onsubmit = handleSubmit;
