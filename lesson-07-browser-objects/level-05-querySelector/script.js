@@ -1,9 +1,9 @@
 // Level 05 — querySelector starter
 // TODO: use document.querySelector('#content') or document.querySelectorAll('.item')
-const pTag = document.querySelector("p");
+const pTag = document.querySelector("#content");
 
 // TODO: log previous content and update nodes (iterate NodeList with forEach)
-pTag.innerHTML = "<h2>Hello world!</h2>";
+pTag.innerHTML = "<h2>the innerText/innerHTML is used to change text content on the page! one changes the text and the other makes changes to the html</h2>";
 
 
 // Scaffold:
