@@ -1,13 +1,22 @@
 // Level 05 starter script
 // TODO: Fetch GET https://api.jsoning.com/mock/public/users, await response.json(), and read display the data.
 const form = document.getElementById("sample-form");
-const pUsername = document.getElementById("username");
-const pEmail = document.getElementById("email");
-const pId = document.getElementById("id");
+form.onsubmit = handleSubmit;
 
 async function handleSubmit(e) {
   e.preventDefault();
+  response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+  const userdata = await response.json();
+  const userId = userdata.userId;
+  const title = userdata.title;
+  const isCompleted = userdata.Completed;
+  const pTag1 = document.getElementById("username");
+  const pTag2 = document.getElementById("email");
+  const pTag3 = document.getElementById("id");
+  pTag1.innerText = "User ID: " + userId;
+  pTag2.innerText = "Title: " + title;
+  pTag3.innerText = "Is Completed: " + isCompleted;
   // TODO: implement fetch and set the three elements' innerText
 }
 
-if (form) form.onsubmit = handleSubmit;
+
