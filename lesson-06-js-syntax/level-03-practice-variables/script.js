@@ -15,13 +15,13 @@ country = "United States";
 
 // TODO: Part B: fix five faulty string initializations so they parse correctly.
 
-let firstName = "noName";
+let fName = "noName";
 
-let lastName = "Smith";
+let lName = "Smith";
 
-let city = "New York";
+let city2 = "New York";
 
-let country = "USA";
+let country2 = "USA";
 
 let planet = "Earth";
 
