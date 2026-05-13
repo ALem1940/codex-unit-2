@@ -24,11 +24,11 @@ for (let point=5; point > 0; point--) {
     console.log(point);
 }
 
-for (let apples=12; apples <=22; apples += 10) {
+for (let apples=12; apples <=22; apples++) {
     console.log(apples);
 }
 
-for (let bags=42; bags < 50; bags++ ) {
+for (let bags=42; bags < 50; bags++) {
     console.log(bags);
 }
 
@@ -36,6 +36,6 @@ for (let candy=59; candy <= 60; candy+=5) {
     console.log(candy);
 }
 
-for (let socks=0;socks <=20; socks = socks + 8) {
+for (let socks=0;socks <=20; socks++) {
     console.log(socks);
 }
