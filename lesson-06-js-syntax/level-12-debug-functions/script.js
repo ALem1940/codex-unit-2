@@ -17,7 +17,7 @@ function getName() {
   return "Name";
 };
 
-getNname();
+getName();
 
 function multiply(x, y) {
   return x * y;
