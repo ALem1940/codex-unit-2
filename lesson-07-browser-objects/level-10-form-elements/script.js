@@ -2,14 +2,15 @@
 // TODO: assign a named function to form.onsubmit that reads a text input value
 const form = document.querySelector("form");
 form.onsubmit = handleSubmit;
-
+const output = document.getElementById("output");
 
 function handleSubmit(event) {
   event.preventDefault();
-  const formTag = event.target;
-  formTag.elements.email;
-  console.log(formTag.elements.message.value);
+  const form= event.target;
+  form.elements.email;
+  const message = formTag.elements.message.value;
   console.log("form submit scaffold");
+  output.innerText = message;
 }
 
 // const form = document.getElementById('sample-form');
