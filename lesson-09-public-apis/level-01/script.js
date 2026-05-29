@@ -1,25 +1,25 @@
-
 const formTag = document.getElementById("loginForm");
 formTag.onsubmit = handleSubmit;
 
 async function handleSubmit(event) {
-    event.preventDefault()
-
+    event.preventDefault();
+    const formTag = event.target;
     const data = {
-      username: formTag.elements.email.value,
+      username: formTag.elements.username.value,
       password: formTag.elements.password.value
-    }
-
+    };
     const dataString = JSON.stringify(data);
     const response = await fetch("https://dummyjson.com/auth/login", {
-      method: "POST",
-      headers: {"Content-Type": "application/json" },
-      body:JSON.stringify ({
-
-        const result = await response.json();
-        console.log(result);
-    })
-  });
+      method: "POST", 
+      body: dataString,
+      headers: { "Content-Type"}
+    });
+    const result = await response.json();
+    debugger;
+  }
+    
+  const errorEl = document.getElementById("error");
+  const successEl = document.getElementById("success");
 
   // TODO: Call event.preventDefault()
   // TODO: Create `data` object with username and password from form.elements
